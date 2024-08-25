@@ -3,7 +3,7 @@ import App from "/src/App";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Future-School",
     element: <App />,
   },
 ]);
