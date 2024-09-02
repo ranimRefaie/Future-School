@@ -28,7 +28,7 @@ const NavBar = () => {
   }, []);
 
   return (
-    <div className={`navbar ${isFixed ? "fixed" : ""}`}>
+    <div className={`nav-bar ${isFixed ? "fixed" : ""}`}>
       <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
       <nav className="desktop-nav container flex between">
         <div className="logo">
