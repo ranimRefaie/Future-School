@@ -19,6 +19,3 @@
 .accordion-button::after {
     margin: 0;
 }
-
-
-@media (max-width:992px) {}
