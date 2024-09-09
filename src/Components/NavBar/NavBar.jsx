@@ -49,7 +49,7 @@ const NavBar = () => {
           </li>
         </ul>
 
-        <a href="" className="btn-1">
+        <a href="/Future-School/signIn" className="btn-1">
           SIGN IN
         </a>
 

@@ -1,10 +1,15 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from "/src/App";
-
+import Home from "./Pages/Home/Home";
+import Sign from "./Pages/Sign/Sign";
 const router = createBrowserRouter([
   {
     path: "/Future-School",
-    element: <App />,
+    element: <Home />,
+  },
+
+  {
+    path: "/Future-School/signIn",
+    element: <Sign />,
   },
 ]);
 
